@@ -1,0 +1,34 @@
+Here is a `requirements` file:
+
+```
+opencv-python
+tensorflow
+keras
+numpy
+```
+
+### ✅ **Explanation:**
+- **opencv-python**: For face detection and working with images and video.  
+- **tensorflow**: To load and run the trained Keras model.  
+- **keras**: For handling the face recognition model.  
+- **numpy**: For numerical operations and working with arrays.  
+
+---
+
+### 📌 **Optional (If Needed for Specific Features)**  
+If you are using additional libraries, you may include them:
+
+```
+Pillow        # For image manipulation (if needed)
+matplotlib    # For visualizing training data (optional)
+scikit-learn  # For evaluation metrics (optional)
+```
+
+---
+
+### 📥 **Install Dependencies**
+Run this command to install all packages:
+
+```bash
+pip install -r requirements.txt
+```
